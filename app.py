@@ -32,8 +32,8 @@ driver = webdriver.Chrome(options=chrome_options)
 driver.get("https://www.facebook.com/")
 
 
-FB_USERNAME="03309580858"
-FB_PASSWORD="smdlsmdl"
+FB_USERNAME=""
+FB_PASSWORD=""
 def marketplace_share():
   # Open the CSV file and read the data
   with open('Marketplace Data sharing - Sheet1.csv', 'r') as file:
